@@ -9,7 +9,7 @@ public class Engine {
     public static ArrayList<Player> scoreBoard = new ArrayList<>(Scoreboard.initScoreboard());
     static Scanner keyboard = new Scanner(System.in);
 
-    public static void gamerunning(){
+    public static void startGame(){
 
     }
     public static void playerSetup(int numOfPlayers) {
