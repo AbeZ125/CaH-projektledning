@@ -18,7 +18,7 @@ public class VoteSystem {
 
     public static void layVote (int numOfPlayers){
         for (int i = 1; i <= numOfPlayers;)
-        System.out.printf("Player %d, which alternative reigns supreme?", i);
+        System.out.printf(Engine.playerMap.get(i).getName() +", which alternative reigns supreme?", i);
 
     }
 
