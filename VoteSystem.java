@@ -10,9 +10,9 @@ public class VoteSystem {
     }
 
     public static void showCandidates (){
-        Collections.shuffle(Engine.voteCandidates);
-        for (int i = 0; i < Engine.voteCandidates; i++){
-            System.out.print((i+1) + ": " + Engine.voteCandidates(i) + ".");
+        Collections.shuffle(Engine.voteList);
+        for (int i = 0; i < Engine.voteList.size(); i++){
+            System.out.print((i+1) + ": " + Engine.voteList.get(i) + ".");
         }
     }
 
